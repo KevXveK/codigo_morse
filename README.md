@@ -3,7 +3,9 @@ Aqui eu crio uma função que têm como objetivo converter um texto em codigo mo
 Codigo abaixo 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-codigo_morse = { #alfabeto,numeros e simbolos em python  
+```
+
+codigo_morse = { 
     'A': '.-',    'B': '-...',  'C': '-.-.',  'D': '-..',   'E': '.',
     'F': '..-.',  'G': '--.',   'H': '....',  'I': '..',    'J': '.---',
     'K': '-.-',   'L': '.-..',  'M': '--',    'N': '-.',    'O': '---',
@@ -36,3 +38,4 @@ def conversor_morse(): # função que traduz texto para morse e morse para texto
         return ''.join(traducao)
 resultado = conversor_morse()
 print(resultado)
+```
