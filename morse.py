@@ -20,7 +20,7 @@ def conversor_morse(): # função que traduz texto para morse e morse para texto
         for letra in texto:
             if letra in codigo_morse:
                 traducao.append(codigo_morse[letra])  #cria um loop que itera sobre cada caracter e devolve o valor da chave desse caracter
-        return ''.join(traducao) # retorna a variavel como uma string
+        return ' '.join(traducao) # retorna a variavel como uma string
     elif resposta == 2:
         texto = input("digite o codigo morse separado por espaço").split()
         for cod in texto:
@@ -28,7 +28,7 @@ def conversor_morse(): # função que traduz texto para morse e morse para texto
                 if cod == valor:
                     traducao.append(chave)
                     break
-        return ''.join(traducao)
+        return ' '.join(traducao)
 resultado = conversor_morse()
 print(resultado)
 			
